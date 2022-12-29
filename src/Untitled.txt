@@ -1,0 +1,6 @@
+const renderMovies = item => {
+    if (item.categoryId === 'ACTION') {
+      return <MoviesSlider actionMovies={item} key={item.id} />
+    }
+    return <MoviesSlider comedyMovies={item} key={item.id} />
+  }

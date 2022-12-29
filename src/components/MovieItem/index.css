@@ -1,0 +1,32 @@
+/* Write your CSS here */
+
+.image {
+  height: 80%;
+  width: 80%;
+  cursor: pointer;
+}
+
+.trigger-button {
+  background-color: transparent;
+}
+
+.arrange {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.trigger-buttons {
+  align-self: flex-end;
+  background-color: transparent;
+  width: 28px;
+  height: 28px;
+  border: none;
+  margin-top: 18px;
+  margin-right: 18px;
+  outline: none;
+  cursor: pointer;
+}
